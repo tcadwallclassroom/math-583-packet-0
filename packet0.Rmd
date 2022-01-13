@@ -1,0 +1,30 @@
+---
+title: "Packet 0 - Getting started"
+knit: (function(input_file, encoding) {
+  out_dir <- 'docs';
+  rmarkdown::render(input_file,
+ encoding=encoding,
+ output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
+author: "Todd CadwalladerOlsker"
+date: "*Last updated:* `r Sys.Date()`"
+output:
+  rmdformats::downcute:
+    downcute_theme: "chaos"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(rmdformats)
+```
+
+Welcome to Math 583! This packet contains instructions to help you get set up for our activities on the first day of class. This will help us to hit the ground running on the first day.
+
+## Setting up R and RStudio on your computer
+
+In this class, we will be expensively using the software package R. This software is widely used by professional statisticians, and has an incredible amount of support built into it. It's also free  open-source software (FOSS), which is important because it means all of its code can be independently verified, and it can be used anywhere, by anyone.
+
+**If you have trouble with anything, I'm here to help!**
+
+Before the first class period, please follow this link: [Tutorial: Getting started with R and RStudio](https://www.dataquest.io/blog/tutorial-getting-started-with-r-and-rstudio/) and complete the first 4 steps: you'll install R, install RStudio, then verify everything is working correctly by entering a few simple commands into Rstudio. You can continue further in the tutorial if you like, of course, but we'll go over some of the remaining steps together in class.
+
+Alternatively, you can sign up for a free accound with RStudio Cloud. This will allow you to do everything we are doing in class in a web browser, which may (or may not) be more convenient for you.
