@@ -27,4 +27,4 @@ In this class, we will be expensively using the software package R. This softwar
 
 Before the first class period, please follow this link: [Tutorial: Getting started with R and RStudio](https://www.dataquest.io/blog/tutorial-getting-started-with-r-and-rstudio/) and complete the first 4 steps: you'll install R, install RStudio, then verify everything is working correctly by entering a few simple commands into Rstudio. You can continue further in the tutorial if you like, of course, but we'll go over some of the remaining steps together in class.
 
-Alternatively, you can sign up for a free accound with RStudio Cloud. This will allow you to do everything we are doing in class in a web browser, which may (or may not) be more convenient for you.
+Alternatively, you can sign up for a free account with RStudio Cloud. This will allow you to do everything we are doing in class in a web browser, which may (or may not) be more convenient for you.
